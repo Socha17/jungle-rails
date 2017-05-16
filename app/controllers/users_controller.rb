@@ -1,5 +1,7 @@
 class UsersController < ApplicationController
 
+
+
   def new
   end
 
@@ -13,7 +15,9 @@ class UsersController < ApplicationController
       redirect_to '/signup'
     end
   end
-  
+
+
+
   private
 
   def user_params
